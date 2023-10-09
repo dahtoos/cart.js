@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="mine">
+      <div id="items">
+        <!--this is keyboard-->
+        <div id="item1">
+          <div id="keyboard">
+            <div id="info">
+              <div id="piks">
+                <img class="piks" src="res/keyboard.webp" alt="" />
+              </div>
+              <div id="about">
+                <p>Wireless white Keyboard with Mouse</p>
+                <p>Seller: Dahtoos</p>
+                <a class="link" href="https://www.jumia.com.ng/cart/"
+                  >Dahtoos Express</a
+                >
+              </div>
+            </div>
+            <div class="price">
+              <p class="price">$40</p>
+              <div class="price">
+                <button id="like1" onclick="love(1)">&hearts;</button>
+              </div>
+            </div>
+          </div>
+          <div id="bottom">
+            <div>
+              <button class="delete" id="delete1" onclick="deleteItem(1)">
+                DELETE
+              </button>
+            </div>
+            <div>
+              <button class="btn" id="sbtn1" onclick="minus(1)">-</button>
+              <span class="qty" id="qty1">1</span>
+              <button class="btn" onclick="plus(1)">+</button>
+            </div>
+          </div>
+        </div>
+        <br />
+        <!--this is bag-->
+        <div id="item2">
+          <div id="bag">
+            <div id="info1">
+              <div id="piks1">
+                <img class="piks" src="res/bag.webp" alt="" />
+              </div>
+              <div id="about1">
+                <p>A very good 3 set of bags with waterproof</p>
+                <p>Seller: Dahtoos</p>
+                <a class="link" href="https://www.jumia.com.ng/cart/"
+                  >Dahtoos Express</a
+                >
+              </div>
+            </div>
+            <div class="pri">
+              <p class="pri">$22</p>
+              <div class="pri">
+                <button id="like2" onclick="love(2)">&hearts;</button>
+              </div>
+            </div>
+          </div>
+          <div id="bottom1">
+            <div>
+              <button class="delete" id="delete2" onclick="deleteItem(2)">
+                DELETE
+              </button>
+            </div>
+            <div>
+              <button class="btn" id="sbtn2" onclick="minus(2)">-</button>
+              <span class="qty" id="qty2">1</span>
+              <button class="btn" onclick="plus(2)">+</button>
+            </div>
+          </div>
+        </div>
+        <br />
+
+        <!--this is axe-->
+        <div id="item3">
+          <div id="axe">
+            <div id="info2">
+              <div id="piks2">
+                <img
+                  class="piks"
+                  src="res/images (8) - 2021-10-06T211354.854.jpeg"
+                  alt=""
+                />
+              </div>
+              <div id="about2">
+                <p>Quality axe with strong metal and hold</p>
+                <p>Seller: Dahtoos</p>
+                <a class="link" href="https://www.jumia.com.ng/cart/"
+                  >Dahtoos Express</a
+                >
+              </div>
+            </div>
+            <div class="price">
+              <p class="price">$10</p>
+              <div class="price">
+                <button id="like3" onclick="love(3)">&hearts;</button>
+              </div>
+            </div>
+          </div>
+          <div id="bottom2">
+            <div>
+              <button class="delete" id="delete3" onclick="deleteItem(3)">
+                DELETE
+              </button>
+            </div>
+            <div>
+              <button class="btn" id="sbtn3" onclick="minus(3)">-</button>
+              <span class="qty" id="qty3">1</span>
+              <button class="btn" onclick="plus(3)">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="cart">
+        <div id="sum">
+          <h1 class="cont">Cart Summary</h1>
+          <span style="font-size: xx-large" class="cont">SubTotal=</span>
+          <span style="font-size: xx-large">$</span>
+          <span style="font-size: xx-large" id="total">$0</span>
+        </div>
+        <br />
+        <div id="return">
+          <h1 class="cont">Returns are easy</h1>
+          <p style="font-size: small" class="cont">
+            Free return within 15 days for Official Store items and 7 days for
+            other eligible items
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="Js/main.js"></script>
+  </body>
+</html>

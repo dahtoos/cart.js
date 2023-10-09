@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#mine{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    background-color: #F1F1F2;
+    min-height: 100vh;
+    
+}
+#items{
+    padding-right: 120px;
+    padding-top: 60px;
+
+}
+.piks{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding-right: 50px;
+    border-radius:5px ;
+}
+#bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+}
+#info{
+    display: flex;
+
+}
+#keyboard{
+    display: flex;
+    
+}
+#key{
+    background-color: white;   
+    border-radius:5px ;
+    
+}
+.price{
+    padding-left: 80px;
+    padding-right: 5px;
+    font-size: x-large;
+}
+#like1{
+    width: 50px;
+    height: 40px;
+    font-size:  50px;
+    background-color: white;
+    border: white;
+    padding-right: 30px;
+}
+#about{
+    padding-left: 20px;
+}
+#love{
+    padding-right: 30px;
+}
+
+
+.piks1{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding-right: 50px;
+}
+#bottom1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+   
+}
+#info1{
+    display: flex;
+    padding-top: 25px;
+    
+}
+#bag{
+    display: flex;
+    gap:25px ;
+    
+}
+#bagall{
+    background-color: white;
+    
+    border-radius:5px ;
+    
+}
+.pri{
+    padding-left: 60px;
+    padding-right: 10px;
+    font-size: x-large;
+}
+#like2{
+    width: 50px;
+    height: 40px;
+    font-size:  50px;
+    background-color: white;
+    border: white;
+    padding-right: 30px;
+}
+#about1{
+    padding-left: 20px;
+}
+#love1{
+    padding-right: 30px;
+}
+
+.piks2{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding-right: 50px;
+}
+#bottom2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+  
+}
+#info2{
+    display: flex;
+}
+#axe{
+    display: flex;
+    
+}
+#axeall{
+    background-color: white;
+    padding-bottom: 10px;
+    border-radius:5px ;
+    
+}
+.pric{
+    padding-left: 70px;
+    padding-right: 40px;
+}
+#like3{
+    width: 50px;
+    height: 40px;
+    font-size: 50px;
+    background-color: white;
+    border: white;
+    padding-right: 30px;
+}
+#about2{
+    padding-left: 20px;
+}
+#return{
+    padding-right: 30px;
+    background-color: white;
+    border-radius:5px ;
+}
+.btn{
+    color: white;
+    background-color:#F68B1E;
+    border-radius: 10px;
+    border-color: #F68B1E ;
+    width: 35px;
+    height: 30px;
+    font-size: large;
+    
+}
+.qty{
+    gap: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#cart{
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 300px;
+    height: px;
+    border-radius:5px ;
+}
+#sum{
+    background-color: white; 
+}
+.cont{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #F68B1E;
+}
+#delete1{
+    border: #F1F1F2;
+    border-radius: 5px;
+}
+#delete2{
+    border: #F1F1F2;
+    border-radius: 5px;
+}
+#delete3{
+    border: #F1F1F2;
+    border-radius: 5px;
+}
+.link{
+    position: absolute;
+    text-decoration: none;
+    color:dimgrey;
+    font-style: italic;
+    border-radius: 5px;
+}
+.link:hover {
+    color:#F68B1E;
+    transition: 0.7s;
+}
+.delete:hover{
+    background-color: red;
+    transition: 0.7s;
+
+}
