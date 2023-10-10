@@ -37,7 +37,7 @@ body{
     display: flex;
     
 }
-#key{
+#item1{
     background-color: white;   
     border-radius:5px ;
     
@@ -87,7 +87,7 @@ body{
     gap:25px ;
     
 }
-#bagall{
+#item2{
     background-color: white;
     
     border-radius:5px ;
@@ -134,7 +134,7 @@ body{
     display: flex;
     
 }
-#axeall{
+#item3{
     background-color: white;
     padding-bottom: 10px;
     border-radius:5px ;
